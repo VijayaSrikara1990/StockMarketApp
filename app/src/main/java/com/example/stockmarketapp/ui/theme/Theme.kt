@@ -36,7 +36,7 @@ fun StockMarketAppTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Co
     }
 
     MaterialTheme(
-            colors = colors,
+            colors = DarkColorPalette,
             typography = Typography,
             shapes = Shapes,
             content = content
